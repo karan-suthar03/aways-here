@@ -43,12 +43,12 @@ input.addEventListener("input", function() {
     // Your code here
 	
 	var text = input.value;
-	if(text == "karan69"){
+	if(text == "karan69" || text == "Karan69" ){
 		dmsgs.set("");
 		username = "karan";
 		window.location.href = "kiki/hehe.html?data=" + username;
 	}
-	else if(text == "chanchal00"){
+	else if(text == "chanchal00" || text == "Chanchal00"){
 		dmsgs.set("");
 		username = "chanchal00";
 		window.location.href = "kiki/hehe.html?data=" + username;
