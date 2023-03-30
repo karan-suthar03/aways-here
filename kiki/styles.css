@@ -65,11 +65,11 @@
 	overflow-x: hidden;
     position: relative;
     list-style: none;
-    padding: 20px 10px 0px 22px;
+    padding: 0px 0px 0px 0px;
     margin: 0;
     height: calc(100% - 150px);
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .messages .message {
@@ -88,7 +88,7 @@
 
 .messages .message.left .text_wrapper {
     background-color: #00B5E2;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .messages .message.left .text_wrapper::after,
@@ -107,7 +107,7 @@
 
 .messages .message.right .text_wrapper {
     background-color: #FFB6C1;
-    margin-right: 20px;
+    margin-right: 10px;
     float: right;
 }
 
