@@ -27,8 +27,6 @@ userRef.get().then((doc) => {
                     const messageElementone = document.createElement('div');
                     const textElement = document.createElement('div');
                     const textNode = document.createTextNode(message.message);
-                    const avatarElement = document.createElement('div');
-                    avatarElement.className = 'avatar';
                     if (message.message.startsWith(username)) {
                         messageElement.className = 'message right appeared';
                     } else {
@@ -46,7 +44,6 @@ userRef.get().then((doc) => {
                     }
                     const editedTextNode = document.createTextNode(text);
                     textElement.appendChild(editedTextNode);
-                    messageElement.appendChild(avatarElement);
                     textWrapperElement.appendChild(textElement);
                     messageElement.appendChild(textWrapperElement);
                     messageElementone.appendChild(messageElement);
