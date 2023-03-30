@@ -175,6 +175,7 @@ input{
   padding: 0;
   position: relative;
   color: #111;
+  width: calc(100% - 75px);
 }
 
 input{
