@@ -43,8 +43,8 @@ html {
   z-index: 1;
 }
 .button2 {
-  position: relative;
-  padding: 16px 30px;
+    top: 2%;
+    position: absolute;
   font-size: 1.5rem;
   color: var(--color);
   border: 2px solid rgba(0, 0, 0, 0.5);
